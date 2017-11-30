@@ -1,0 +1,1448 @@
+fileFormatVersion: 2
+guid: ef6e3de06ebe1a0459ae4d112d2874b2
+timeCreated: 1511171064
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Agni_A_Agni_A_C_Mouth UP001
+    100002: Agni_A_Agni_A_Eye01
+    100004: Agni_A_Agni_A_Eye02
+    100006: Agni_A_Agni_A_Eyebrow01
+    100008: Agni_A_Agni_A_Eyebrow02
+    100010: Agni_A_Agni_A_L_Checkbone
+    100012: Agni_A_Agni_A_L_Eyebrow001
+    100014: Agni_A_Agni_A_L_Eyebrow003
+    100016: Agni_A_Agni_A_L_Eyelite_Down001
+    100018: Agni_A_Agni_A_L_Eyelite_Down002
+    100020: Agni_A_Agni_A_L_Eyelite_Down003
+    100022: Agni_A_Agni_A_L_Eyelite_UP001
+    100024: Agni_A_Agni_A_L_Mouth UP001
+    100026: Agni_A_Agni_A_L_Mouth UP001 1
+    100028: Agni_A_Agni_A_L_Nose001
+    100030: Agni_A_Agni_A_Lidah
+    100032: Agni_A_Agni_A_R_Eyebrow002
+    100034: Agni_A_Agni_A_R_Eyebrow003
+    100036: Agni_A_Agni_A_R_Eyelite_UP001
+    100038: Agni_A_Agni_A_R_Mouth UP001
+    100040: Agni_A_Agni_A_R_Nose001
+    100042: Agni_A_Agni_A_R_Nose002
+    100044: //RootNode
+    100046: Agni_A_Belt
+    100048: Agni_A_Belt2
+    100050: Agni_A_Body
+    100052: Agni_A_C_Mouth Down001
+    100054: Agni_A_Chin
+    100056: Agni_A_Cloth
+    100058: Agni_A_Cylinder001
+    100060: Agni_A_Dummy_Pelvis
+    100062: Agni_A_Gigi_Down
+    100064: Agni_A_Gigi_Up
+    100066: Agni_A_Gusi_Down
+    100068: Agni_A_Gusi_Up
+    100070: Agni_A_Hair Mask
+    100072: Agni_A_Hair001
+    100074: Agni_A_Hair002
+    100076: Agni_A_Hair003
+    100078: Agni_A_Hair004
+    100080: Agni_A_Hair005
+    100082: Agni_A_Hair006
+    100084: Agni_A_Hair007
+    100086: Agni_A_Hair008
+    100088: Agni_A_Hair009
+    100090: Agni_A_Hair010
+    100092: Agni_A_Hair011
+    100094: Agni_A_Hair012
+    100096: Agni_A_Hair013
+    100098: Agni_A_Hair014
+    100100: Agni_A_Hair015
+    100102: Agni_A_Hair016
+    100104: Agni_A_Hair017
+    100106: Agni_A_Hair018
+    100108: Agni_A_Hair019
+    100110: Agni_A_Hair020
+    100112: Agni_A_Hair021
+    100114: Agni_A_Hair022
+    100116: Agni_A_Hair023
+    100118: Agni_A_Hair024
+    100120: Agni_A_Hair025
+    100122: Agni_A_Hair026
+    100124: Agni_A_Hair027
+    100126: Agni_A_Hair028
+    100128: Agni_A_Hair029
+    100130: Agni_A_Hair030
+    100132: Agni_A_Head
+    100134: Agni_A_L_Eye
+    100136: Agni_A_L_Eyebrow002
+    100138: Agni_A_L_Eyelite_UP002
+    100140: Agni_A_L_Eyelite_UP003
+    100142: Agni_A_L_Mouth Side001
+    100144: Agni_A_LCalf
+    100146: Agni_A_LCollarbone
+    100148: Agni_A_LDigit11
+    100150: Agni_A_LDigit11 1
+    100152: Agni_A_LDigit12
+    100154: Agni_A_LDigit13
+    100156: Agni_A_LDigit21
+    100158: Agni_A_LDigit22
+    100160: Agni_A_LDigit23
+    100162: Agni_A_LDigit31
+    100164: Agni_A_LDigit32
+    100166: Agni_A_LDigit33
+    100168: Agni_A_LDigit41
+    100170: Agni_A_LDigit42
+    100172: Agni_A_LDigit43
+    100174: Agni_A_LDigit51
+    100176: Agni_A_LDigit52
+    100178: Agni_A_LDigit53
+    100180: Agni_A_LFoot
+    100182: Agni_A_LForearm
+    100184: Agni_A_LPalm
+    100186: Agni_A_LThigh
+    100188: Agni_A_LUpperarm
+    100190: Agni_A_Neck1
+    100192: Agni_A_Neck2
+    100194: Agni_A_Object001
+    100196: Agni_A_Pants
+    100198: Agni_A_Pelvis
+    100200: Agni_A_R_Eye
+    100202: Agni_A_R_Eyebrow001
+    100204: Agni_A_R_Eyelite_Down001
+    100206: Agni_A_R_Eyelite_Down002
+    100208: Agni_A_R_Eyelite_Down003
+    100210: Agni_A_R_Eyelite_UP002
+    100212: Agni_A_R_Eyelite_UP003
+    100214: Agni_A_R_Mouth Down001
+    100216: Agni_A_R_Mouth Side001
+    100218: Agni_A_RCalf
+    100220: Agni_A_RCollarbone
+    100222: Agni_A_RDigit11
+    100224: Agni_A_RDigit11 1
+    100226: Agni_A_RDigit12
+    100228: Agni_A_RDigit13
+    100230: Agni_A_RDigit21
+    100232: Agni_A_RDigit22
+    100234: Agni_A_RDigit23
+    100236: Agni_A_RDigit31
+    100238: Agni_A_RDigit32
+    100240: Agni_A_RDigit33
+    100242: Agni_A_RDigit41
+    100244: Agni_A_RDigit42
+    100246: Agni_A_RDigit43
+    100248: Agni_A_RDigit51
+    100250: Agni_A_RDigit52
+    100252: Agni_A_RDigit53
+    100254: Agni_A_RFoot
+    100256: Agni_A_RForearm
+    100258: Agni_A_Ribcage
+    100260: Agni_A_RPalm
+    100262: Agni_A_RThigh
+    100264: Agni_A_RUpperarm
+    100266: Agni_A_Shoe
+    100268: Agni_A_Shoe001
+    100270: Agni_A_Sole
+    100272: Agni_A_Sole001
+    100274: Agni_A_Spine1
+    100276: Agni_A_Spine2
+    100278: Agni_A_Spine3
+    100280: Agni_A_Spine4
+    100282: Agni_A_Tube001
+    400000: Agni_A_Agni_A_C_Mouth UP001
+    400002: Agni_A_Agni_A_Eye01
+    400004: Agni_A_Agni_A_Eye02
+    400006: Agni_A_Agni_A_Eyebrow01
+    400008: Agni_A_Agni_A_Eyebrow02
+    400010: Agni_A_Agni_A_L_Checkbone
+    400012: Agni_A_Agni_A_L_Eyebrow001
+    400014: Agni_A_Agni_A_L_Eyebrow003
+    400016: Agni_A_Agni_A_L_Eyelite_Down001
+    400018: Agni_A_Agni_A_L_Eyelite_Down002
+    400020: Agni_A_Agni_A_L_Eyelite_Down003
+    400022: Agni_A_Agni_A_L_Eyelite_UP001
+    400024: Agni_A_Agni_A_L_Mouth UP001
+    400026: Agni_A_Agni_A_L_Mouth UP001 1
+    400028: Agni_A_Agni_A_L_Nose001
+    400030: Agni_A_Agni_A_Lidah
+    400032: Agni_A_Agni_A_R_Eyebrow002
+    400034: Agni_A_Agni_A_R_Eyebrow003
+    400036: Agni_A_Agni_A_R_Eyelite_UP001
+    400038: Agni_A_Agni_A_R_Mouth UP001
+    400040: Agni_A_Agni_A_R_Nose001
+    400042: Agni_A_Agni_A_R_Nose002
+    400044: //RootNode
+    400046: Agni_A_Belt
+    400048: Agni_A_Belt2
+    400050: Agni_A_Body
+    400052: Agni_A_C_Mouth Down001
+    400054: Agni_A_Chin
+    400056: Agni_A_Cloth
+    400058: Agni_A_Cylinder001
+    400060: Agni_A_Dummy_Pelvis
+    400062: Agni_A_Gigi_Down
+    400064: Agni_A_Gigi_Up
+    400066: Agni_A_Gusi_Down
+    400068: Agni_A_Gusi_Up
+    400070: Agni_A_Hair Mask
+    400072: Agni_A_Hair001
+    400074: Agni_A_Hair002
+    400076: Agni_A_Hair003
+    400078: Agni_A_Hair004
+    400080: Agni_A_Hair005
+    400082: Agni_A_Hair006
+    400084: Agni_A_Hair007
+    400086: Agni_A_Hair008
+    400088: Agni_A_Hair009
+    400090: Agni_A_Hair010
+    400092: Agni_A_Hair011
+    400094: Agni_A_Hair012
+    400096: Agni_A_Hair013
+    400098: Agni_A_Hair014
+    400100: Agni_A_Hair015
+    400102: Agni_A_Hair016
+    400104: Agni_A_Hair017
+    400106: Agni_A_Hair018
+    400108: Agni_A_Hair019
+    400110: Agni_A_Hair020
+    400112: Agni_A_Hair021
+    400114: Agni_A_Hair022
+    400116: Agni_A_Hair023
+    400118: Agni_A_Hair024
+    400120: Agni_A_Hair025
+    400122: Agni_A_Hair026
+    400124: Agni_A_Hair027
+    400126: Agni_A_Hair028
+    400128: Agni_A_Hair029
+    400130: Agni_A_Hair030
+    400132: Agni_A_Head
+    400134: Agni_A_L_Eye
+    400136: Agni_A_L_Eyebrow002
+    400138: Agni_A_L_Eyelite_UP002
+    400140: Agni_A_L_Eyelite_UP003
+    400142: Agni_A_L_Mouth Side001
+    400144: Agni_A_LCalf
+    400146: Agni_A_LCollarbone
+    400148: Agni_A_LDigit11
+    400150: Agni_A_LDigit11 1
+    400152: Agni_A_LDigit12
+    400154: Agni_A_LDigit13
+    400156: Agni_A_LDigit21
+    400158: Agni_A_LDigit22
+    400160: Agni_A_LDigit23
+    400162: Agni_A_LDigit31
+    400164: Agni_A_LDigit32
+    400166: Agni_A_LDigit33
+    400168: Agni_A_LDigit41
+    400170: Agni_A_LDigit42
+    400172: Agni_A_LDigit43
+    400174: Agni_A_LDigit51
+    400176: Agni_A_LDigit52
+    400178: Agni_A_LDigit53
+    400180: Agni_A_LFoot
+    400182: Agni_A_LForearm
+    400184: Agni_A_LPalm
+    400186: Agni_A_LThigh
+    400188: Agni_A_LUpperarm
+    400190: Agni_A_Neck1
+    400192: Agni_A_Neck2
+    400194: Agni_A_Object001
+    400196: Agni_A_Pants
+    400198: Agni_A_Pelvis
+    400200: Agni_A_R_Eye
+    400202: Agni_A_R_Eyebrow001
+    400204: Agni_A_R_Eyelite_Down001
+    400206: Agni_A_R_Eyelite_Down002
+    400208: Agni_A_R_Eyelite_Down003
+    400210: Agni_A_R_Eyelite_UP002
+    400212: Agni_A_R_Eyelite_UP003
+    400214: Agni_A_R_Mouth Down001
+    400216: Agni_A_R_Mouth Side001
+    400218: Agni_A_RCalf
+    400220: Agni_A_RCollarbone
+    400222: Agni_A_RDigit11
+    400224: Agni_A_RDigit11 1
+    400226: Agni_A_RDigit12
+    400228: Agni_A_RDigit13
+    400230: Agni_A_RDigit21
+    400232: Agni_A_RDigit22
+    400234: Agni_A_RDigit23
+    400236: Agni_A_RDigit31
+    400238: Agni_A_RDigit32
+    400240: Agni_A_RDigit33
+    400242: Agni_A_RDigit41
+    400244: Agni_A_RDigit42
+    400246: Agni_A_RDigit43
+    400248: Agni_A_RDigit51
+    400250: Agni_A_RDigit52
+    400252: Agni_A_RDigit53
+    400254: Agni_A_RFoot
+    400256: Agni_A_RForearm
+    400258: Agni_A_Ribcage
+    400260: Agni_A_RPalm
+    400262: Agni_A_RThigh
+    400264: Agni_A_RUpperarm
+    400266: Agni_A_Shoe
+    400268: Agni_A_Shoe001
+    400270: Agni_A_Sole
+    400272: Agni_A_Sole001
+    400274: Agni_A_Spine1
+    400276: Agni_A_Spine2
+    400278: Agni_A_Spine3
+    400280: Agni_A_Spine4
+    400282: Agni_A_Tube001
+    2300000: Agni_A_Agni_A_Eye01
+    2300002: Agni_A_Agni_A_Eye02
+    3300000: Agni_A_Agni_A_Eye01
+    3300002: Agni_A_Agni_A_Eye02
+    4300000: Agni_A_Gusi_Down
+    4300002: Agni_A_Agni_A_Lidah
+    4300004: Agni_A_Gigi_Down
+    4300006: Agni_A_Gusi_Up
+    4300008: Agni_A_Gigi_Up
+    4300010: Agni_A_Belt
+    4300012: Agni_A_Belt2
+    4300014: Agni_A_Shoe
+    4300016: Agni_A_Shoe001
+    4300018: Agni_A_Sole
+    4300020: Agni_A_Sole001
+    4300022: Agni_A_Object001
+    4300024: Agni_A_Cylinder001
+    4300026: Agni_A_Tube001
+    4300028: Agni_A_Agni_A_Eye02
+    4300030: Agni_A_Agni_A_Eye01
+    4300032: Agni_A_Agni_A_Eyebrow01
+    4300034: Agni_A_Agni_A_Eyebrow02
+    4300036: Agni_A_Body
+    4300038: Agni_A_Cloth
+    4300040: Agni_A_Pants
+    4300042: Agni_A_Hair030
+    4300044: Agni_A_Hair029
+    4300046: Agni_A_Hair028
+    4300048: Agni_A_Hair027
+    4300050: Agni_A_Hair026
+    4300052: Agni_A_Hair025
+    4300054: Agni_A_Hair024
+    4300056: Agni_A_Hair023
+    4300058: Agni_A_Hair022
+    4300060: Agni_A_Hair021
+    4300062: Agni_A_Hair020
+    4300064: Agni_A_Hair019
+    4300066: Agni_A_Hair018
+    4300068: Agni_A_Hair017
+    4300070: Agni_A_Hair016
+    4300072: Agni_A_Hair015
+    4300074: Agni_A_Hair014
+    4300076: Agni_A_Hair013
+    4300078: Agni_A_Hair012
+    4300080: Agni_A_Hair011
+    4300082: Agni_A_Hair010
+    4300084: Agni_A_Hair009
+    4300086: Agni_A_Hair008
+    4300088: Agni_A_Hair007
+    4300090: Agni_A_Hair006
+    4300092: Agni_A_Hair005
+    4300094: Agni_A_Hair004
+    4300096: Agni_A_Hair003
+    4300098: Agni_A_Hair002
+    4300100: Agni_A_Hair001
+    4300102: Agni_A_Hair Mask
+    7400000: Walk
+    7400002: Run
+    7400004: Jump
+    7400006: Idle
+    9500000: //RootNode
+    13700000: Agni_A_Agni_A_Eyebrow01
+    13700002: Agni_A_Agni_A_Eyebrow02
+    13700004: Agni_A_Agni_A_Lidah
+    13700006: Agni_A_Belt
+    13700008: Agni_A_Belt2
+    13700010: Agni_A_Body
+    13700012: Agni_A_Cloth
+    13700014: Agni_A_Cylinder001
+    13700016: Agni_A_Gigi_Down
+    13700018: Agni_A_Gigi_Up
+    13700020: Agni_A_Gusi_Down
+    13700022: Agni_A_Gusi_Up
+    13700024: Agni_A_Hair Mask
+    13700026: Agni_A_Hair001
+    13700028: Agni_A_Hair002
+    13700030: Agni_A_Hair003
+    13700032: Agni_A_Hair004
+    13700034: Agni_A_Hair005
+    13700036: Agni_A_Hair006
+    13700038: Agni_A_Hair007
+    13700040: Agni_A_Hair008
+    13700042: Agni_A_Hair009
+    13700044: Agni_A_Hair010
+    13700046: Agni_A_Hair011
+    13700048: Agni_A_Hair012
+    13700050: Agni_A_Hair013
+    13700052: Agni_A_Hair014
+    13700054: Agni_A_Hair015
+    13700056: Agni_A_Hair016
+    13700058: Agni_A_Hair017
+    13700060: Agni_A_Hair018
+    13700062: Agni_A_Hair019
+    13700064: Agni_A_Hair020
+    13700066: Agni_A_Hair021
+    13700068: Agni_A_Hair022
+    13700070: Agni_A_Hair023
+    13700072: Agni_A_Hair024
+    13700074: Agni_A_Hair025
+    13700076: Agni_A_Hair026
+    13700078: Agni_A_Hair027
+    13700080: Agni_A_Hair028
+    13700082: Agni_A_Hair029
+    13700084: Agni_A_Hair030
+    13700086: Agni_A_Object001
+    13700088: Agni_A_Pants
+    13700090: Agni_A_Shoe
+    13700092: Agni_A_Shoe001
+    13700094: Agni_A_Sole
+    13700096: Agni_A_Sole001
+    13700098: Agni_A_Tube001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Agni_A_Agni_A_Eyebrow01
+        weight: 1
+      - path: Agni_A_Agni_A_Eyebrow02
+        weight: 1
+      - path: Agni_A_Agni_A_Lidah
+        weight: 1
+      - path: Agni_A_Belt
+        weight: 1
+      - path: Agni_A_Belt2
+        weight: 1
+      - path: Agni_A_Body
+        weight: 1
+      - path: Agni_A_Body/Agni_A_Cloth
+        weight: 1
+      - path: Agni_A_Body/Agni_A_Pants
+        weight: 1
+      - path: Agni_A_Cylinder001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_LThigh
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_LThigh/Agni_A_LCalf
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_LThigh/Agni_A_LCalf/Agni_A_LFoot
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_LThigh/Agni_A_LCalf/Agni_A_LFoot/Agni_A_LDigit11
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_RThigh
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_RThigh/Agni_A_RCalf
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_RThigh/Agni_A_RCalf/Agni_A_RFoot
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_RThigh/Agni_A_RCalf/Agni_A_RFoot/Agni_A_RDigit11
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit11
+          1
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit11
+          1/Agni_A_LDigit12
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit11
+          1/Agni_A_LDigit12/Agni_A_LDigit13
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit21
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit21/Agni_A_LDigit22
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit21/Agni_A_LDigit22/Agni_A_LDigit23
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit31
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit31/Agni_A_LDigit32
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit31/Agni_A_LDigit32/Agni_A_LDigit33
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit41
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit41/Agni_A_LDigit42
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit41/Agni_A_LDigit42/Agni_A_LDigit43
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit51
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit51/Agni_A_LDigit52
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit51/Agni_A_LDigit52/Agni_A_LDigit53
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_C_Mouth
+          UP001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_L_Checkbone
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_L_Eyebrow001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_L_Eyebrow003
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_L_Eyelite_Down001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_L_Eyelite_Down002
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_L_Eyelite_Down003
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_L_Eyelite_UP001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_L_Mouth
+          UP001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_L_Nose001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_R_Eyebrow002
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_R_Eyebrow003
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_R_Eyelite_UP001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_R_Mouth
+          UP001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_R_Nose001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_R_Nose002
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Chin
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Chin/Agni_A_Agni_A_L_Mouth
+          UP001 1
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Chin/Agni_A_C_Mouth
+          Down001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Chin/Agni_A_R_Mouth
+          Down001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_L_Eye
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_L_Eye/Agni_A_Agni_A_Eye02
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_L_Eyebrow002
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_L_Eyelite_UP002
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_L_Eyelite_UP003
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_L_Mouth
+          Side001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_R_Eye
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_R_Eye/Agni_A_Agni_A_Eye01
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_R_Eyebrow001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_R_Eyelite_Down001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_R_Eyelite_Down002
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_R_Eyelite_Down003
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_R_Eyelite_UP002
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_R_Eyelite_UP003
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_R_Mouth
+          Side001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit11
+          1
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit11
+          1/Agni_A_RDigit12
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit11
+          1/Agni_A_RDigit12/Agni_A_RDigit13
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit21
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit21/Agni_A_RDigit22
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit21/Agni_A_RDigit22/Agni_A_RDigit23
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit31
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit31/Agni_A_RDigit32
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit31/Agni_A_RDigit32/Agni_A_RDigit33
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit41
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit41/Agni_A_RDigit42
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit41/Agni_A_RDigit42/Agni_A_RDigit43
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit51
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit51/Agni_A_RDigit52
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit51/Agni_A_RDigit52/Agni_A_RDigit53
+        weight: 1
+      - path: Agni_A_Gigi_Down
+        weight: 1
+      - path: Agni_A_Gigi_Up
+        weight: 1
+      - path: Agni_A_Gusi_Down
+        weight: 1
+      - path: Agni_A_Gusi_Up
+        weight: 1
+      - path: Agni_A_Hair Mask
+        weight: 1
+      - path: Agni_A_Hair001
+        weight: 1
+      - path: Agni_A_Hair002
+        weight: 1
+      - path: Agni_A_Hair003
+        weight: 1
+      - path: Agni_A_Hair004
+        weight: 1
+      - path: Agni_A_Hair005
+        weight: 1
+      - path: Agni_A_Hair006
+        weight: 1
+      - path: Agni_A_Hair007
+        weight: 1
+      - path: Agni_A_Hair008
+        weight: 1
+      - path: Agni_A_Hair009
+        weight: 1
+      - path: Agni_A_Hair010
+        weight: 1
+      - path: Agni_A_Hair011
+        weight: 1
+      - path: Agni_A_Hair012
+        weight: 1
+      - path: Agni_A_Hair013
+        weight: 1
+      - path: Agni_A_Hair014
+        weight: 1
+      - path: Agni_A_Hair015
+        weight: 1
+      - path: Agni_A_Hair016
+        weight: 1
+      - path: Agni_A_Hair017
+        weight: 1
+      - path: Agni_A_Hair018
+        weight: 1
+      - path: Agni_A_Hair019
+        weight: 1
+      - path: Agni_A_Hair020
+        weight: 1
+      - path: Agni_A_Hair021
+        weight: 1
+      - path: Agni_A_Hair022
+        weight: 1
+      - path: Agni_A_Hair023
+        weight: 1
+      - path: Agni_A_Hair024
+        weight: 1
+      - path: Agni_A_Hair025
+        weight: 1
+      - path: Agni_A_Hair026
+        weight: 1
+      - path: Agni_A_Hair027
+        weight: 1
+      - path: Agni_A_Hair028
+        weight: 1
+      - path: Agni_A_Hair029
+        weight: 1
+      - path: Agni_A_Hair030
+        weight: 1
+      - path: Agni_A_Object001
+        weight: 1
+      - path: Agni_A_Shoe
+        weight: 1
+      - path: Agni_A_Shoe001
+        weight: 1
+      - path: Agni_A_Sole
+        weight: 1
+      - path: Agni_A_Sole001
+        weight: 1
+      - path: Agni_A_Tube001
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run
+      takeName: Take 001
+      firstFrame: 33
+      lastFrame: 57
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Agni_A_Agni_A_Eyebrow01
+        weight: 1
+      - path: Agni_A_Agni_A_Eyebrow02
+        weight: 1
+      - path: Agni_A_Agni_A_Lidah
+        weight: 1
+      - path: Agni_A_Belt
+        weight: 1
+      - path: Agni_A_Belt2
+        weight: 1
+      - path: Agni_A_Body
+        weight: 1
+      - path: Agni_A_Body/Agni_A_Cloth
+        weight: 1
+      - path: Agni_A_Body/Agni_A_Pants
+        weight: 1
+      - path: Agni_A_Cylinder001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_LThigh
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_LThigh/Agni_A_LCalf
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_LThigh/Agni_A_LCalf/Agni_A_LFoot
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_LThigh/Agni_A_LCalf/Agni_A_LFoot/Agni_A_LDigit11
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_RThigh
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_RThigh/Agni_A_RCalf
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_RThigh/Agni_A_RCalf/Agni_A_RFoot
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_RThigh/Agni_A_RCalf/Agni_A_RFoot/Agni_A_RDigit11
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit11
+          1
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit11
+          1/Agni_A_LDigit12
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit11
+          1/Agni_A_LDigit12/Agni_A_LDigit13
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit21
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit21/Agni_A_LDigit22
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit21/Agni_A_LDigit22/Agni_A_LDigit23
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit31
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit31/Agni_A_LDigit32
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit31/Agni_A_LDigit32/Agni_A_LDigit33
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit41
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit41/Agni_A_LDigit42
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit41/Agni_A_LDigit42/Agni_A_LDigit43
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit51
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit51/Agni_A_LDigit52
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit51/Agni_A_LDigit52/Agni_A_LDigit53
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_C_Mouth
+          UP001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_L_Checkbone
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_L_Eyebrow001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_L_Eyebrow003
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_L_Eyelite_Down001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_L_Eyelite_Down002
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_L_Eyelite_Down003
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_L_Eyelite_UP001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_L_Mouth
+          UP001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_L_Nose001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_R_Eyebrow002
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_R_Eyebrow003
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_R_Eyelite_UP001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_R_Mouth
+          UP001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_R_Nose001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_R_Nose002
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Chin
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Chin/Agni_A_Agni_A_L_Mouth
+          UP001 1
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Chin/Agni_A_C_Mouth
+          Down001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Chin/Agni_A_R_Mouth
+          Down001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_L_Eye
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_L_Eye/Agni_A_Agni_A_Eye02
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_L_Eyebrow002
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_L_Eyelite_UP002
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_L_Eyelite_UP003
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_L_Mouth
+          Side001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_R_Eye
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_R_Eye/Agni_A_Agni_A_Eye01
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_R_Eyebrow001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_R_Eyelite_Down001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_R_Eyelite_Down002
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_R_Eyelite_Down003
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_R_Eyelite_UP002
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_R_Eyelite_UP003
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_R_Mouth
+          Side001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit11
+          1
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit11
+          1/Agni_A_RDigit12
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit11
+          1/Agni_A_RDigit12/Agni_A_RDigit13
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit21
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit21/Agni_A_RDigit22
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit21/Agni_A_RDigit22/Agni_A_RDigit23
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit31
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit31/Agni_A_RDigit32
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit31/Agni_A_RDigit32/Agni_A_RDigit33
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit41
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit41/Agni_A_RDigit42
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit41/Agni_A_RDigit42/Agni_A_RDigit43
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit51
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit51/Agni_A_RDigit52
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit51/Agni_A_RDigit52/Agni_A_RDigit53
+        weight: 1
+      - path: Agni_A_Gigi_Down
+        weight: 1
+      - path: Agni_A_Gigi_Up
+        weight: 1
+      - path: Agni_A_Gusi_Down
+        weight: 1
+      - path: Agni_A_Gusi_Up
+        weight: 1
+      - path: Agni_A_Hair Mask
+        weight: 1
+      - path: Agni_A_Hair001
+        weight: 1
+      - path: Agni_A_Hair002
+        weight: 1
+      - path: Agni_A_Hair003
+        weight: 1
+      - path: Agni_A_Hair004
+        weight: 1
+      - path: Agni_A_Hair005
+        weight: 1
+      - path: Agni_A_Hair006
+        weight: 1
+      - path: Agni_A_Hair007
+        weight: 1
+      - path: Agni_A_Hair008
+        weight: 1
+      - path: Agni_A_Hair009
+        weight: 1
+      - path: Agni_A_Hair010
+        weight: 1
+      - path: Agni_A_Hair011
+        weight: 1
+      - path: Agni_A_Hair012
+        weight: 1
+      - path: Agni_A_Hair013
+        weight: 1
+      - path: Agni_A_Hair014
+        weight: 1
+      - path: Agni_A_Hair015
+        weight: 1
+      - path: Agni_A_Hair016
+        weight: 1
+      - path: Agni_A_Hair017
+        weight: 1
+      - path: Agni_A_Hair018
+        weight: 1
+      - path: Agni_A_Hair019
+        weight: 1
+      - path: Agni_A_Hair020
+        weight: 1
+      - path: Agni_A_Hair021
+        weight: 1
+      - path: Agni_A_Hair022
+        weight: 1
+      - path: Agni_A_Hair023
+        weight: 1
+      - path: Agni_A_Hair024
+        weight: 1
+      - path: Agni_A_Hair025
+        weight: 1
+      - path: Agni_A_Hair026
+        weight: 1
+      - path: Agni_A_Hair027
+        weight: 1
+      - path: Agni_A_Hair028
+        weight: 1
+      - path: Agni_A_Hair029
+        weight: 1
+      - path: Agni_A_Hair030
+        weight: 1
+      - path: Agni_A_Object001
+        weight: 1
+      - path: Agni_A_Shoe
+        weight: 1
+      - path: Agni_A_Shoe001
+        weight: 1
+      - path: Agni_A_Sole
+        weight: 1
+      - path: Agni_A_Sole001
+        weight: 1
+      - path: Agni_A_Tube001
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump
+      takeName: Take 001
+      firstFrame: 58
+      lastFrame: 83
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Agni_A_Agni_A_Eyebrow01
+        weight: 1
+      - path: Agni_A_Agni_A_Eyebrow02
+        weight: 1
+      - path: Agni_A_Agni_A_Lidah
+        weight: 1
+      - path: Agni_A_Belt
+        weight: 1
+      - path: Agni_A_Belt2
+        weight: 1
+      - path: Agni_A_Body
+        weight: 1
+      - path: Agni_A_Body/Agni_A_Cloth
+        weight: 1
+      - path: Agni_A_Body/Agni_A_Pants
+        weight: 1
+      - path: Agni_A_Cylinder001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_LThigh
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_LThigh/Agni_A_LCalf
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_LThigh/Agni_A_LCalf/Agni_A_LFoot
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_LThigh/Agni_A_LCalf/Agni_A_LFoot/Agni_A_LDigit11
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_RThigh
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_RThigh/Agni_A_RCalf
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_RThigh/Agni_A_RCalf/Agni_A_RFoot
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_RThigh/Agni_A_RCalf/Agni_A_RFoot/Agni_A_RDigit11
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit11
+          1
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit11
+          1/Agni_A_LDigit12
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit11
+          1/Agni_A_LDigit12/Agni_A_LDigit13
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit21
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit21/Agni_A_LDigit22
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit21/Agni_A_LDigit22/Agni_A_LDigit23
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit31
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit31/Agni_A_LDigit32
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit31/Agni_A_LDigit32/Agni_A_LDigit33
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit41
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit41/Agni_A_LDigit42
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit41/Agni_A_LDigit42/Agni_A_LDigit43
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit51
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit51/Agni_A_LDigit52
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_LCollarbone/Agni_A_LUpperarm/Agni_A_LForearm/Agni_A_LPalm/Agni_A_LDigit51/Agni_A_LDigit52/Agni_A_LDigit53
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_C_Mouth
+          UP001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_L_Checkbone
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_L_Eyebrow001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_L_Eyebrow003
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_L_Eyelite_Down001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_L_Eyelite_Down002
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_L_Eyelite_Down003
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_L_Eyelite_UP001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_L_Mouth
+          UP001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_L_Nose001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_R_Eyebrow002
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_R_Eyebrow003
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_R_Eyelite_UP001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_R_Mouth
+          UP001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_R_Nose001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Agni_A_R_Nose002
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Chin
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Chin/Agni_A_Agni_A_L_Mouth
+          UP001 1
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Chin/Agni_A_C_Mouth
+          Down001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_Chin/Agni_A_R_Mouth
+          Down001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_L_Eye
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_L_Eye/Agni_A_Agni_A_Eye02
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_L_Eyebrow002
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_L_Eyelite_UP002
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_L_Eyelite_UP003
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_L_Mouth
+          Side001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_R_Eye
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_R_Eye/Agni_A_Agni_A_Eye01
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_R_Eyebrow001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_R_Eyelite_Down001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_R_Eyelite_Down002
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_R_Eyelite_Down003
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_R_Eyelite_UP002
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_R_Eyelite_UP003
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_Neck1/Agni_A_Neck2/Agni_A_Head/Agni_A_R_Mouth
+          Side001
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit11
+          1
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit11
+          1/Agni_A_RDigit12
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit11
+          1/Agni_A_RDigit12/Agni_A_RDigit13
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit21
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit21/Agni_A_RDigit22
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit21/Agni_A_RDigit22/Agni_A_RDigit23
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit31
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit31/Agni_A_RDigit32
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit31/Agni_A_RDigit32/Agni_A_RDigit33
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit41
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit41/Agni_A_RDigit42
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit41/Agni_A_RDigit42/Agni_A_RDigit43
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit51
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit51/Agni_A_RDigit52
+        weight: 1
+      - path: Agni_A_Dummy_Pelvis/Agni_A_Pelvis/Agni_A_Spine1/Agni_A_Spine2/Agni_A_Spine3/Agni_A_Spine4/Agni_A_Ribcage/Agni_A_RCollarbone/Agni_A_RUpperarm/Agni_A_RForearm/Agni_A_RPalm/Agni_A_RDigit51/Agni_A_RDigit52/Agni_A_RDigit53
+        weight: 1
+      - path: Agni_A_Gigi_Down
+        weight: 1
+      - path: Agni_A_Gigi_Up
+        weight: 1
+      - path: Agni_A_Gusi_Down
+        weight: 1
+      - path: Agni_A_Gusi_Up
+        weight: 1
+      - path: Agni_A_Hair Mask
+        weight: 1
+      - path: Agni_A_Hair001
+        weight: 1
+      - path: Agni_A_Hair002
+        weight: 1
+      - path: Agni_A_Hair003
+        weight: 1
+      - path: Agni_A_Hair004
+        weight: 1
+      - path: Agni_A_Hair005
+        weight: 1
+      - path: Agni_A_Hair006
+        weight: 1
+      - path: Agni_A_Hair007
+        weight: 1
+      - path: Agni_A_Hair008
+        weight: 1
+      - path: Agni_A_Hair009
+        weight: 1
+      - path: Agni_A_Hair010
+        weight: 1
+      - path: Agni_A_Hair011
+        weight: 1
+      - path: Agni_A_Hair012
+        weight: 1
+      - path: Agni_A_Hair013
+        weight: 1
+      - path: Agni_A_Hair014
+        weight: 1
+      - path: Agni_A_Hair015
+        weight: 1
+      - path: Agni_A_Hair016
+        weight: 1
+      - path: Agni_A_Hair017
+        weight: 1
+      - path: Agni_A_Hair018
+        weight: 1
+      - path: Agni_A_Hair019
+        weight: 1
+      - path: Agni_A_Hair020
+        weight: 1
+      - path: Agni_A_Hair021
+        weight: 1
+      - path: Agni_A_Hair022
+        weight: 1
+      - path: Agni_A_Hair023
+        weight: 1
+      - path: Agni_A_Hair024
+        weight: 1
+      - path: Agni_A_Hair025
+        weight: 1
+      - path: Agni_A_Hair026
+        weight: 1
+      - path: Agni_A_Hair027
+        weight: 1
+      - path: Agni_A_Hair028
+        weight: 1
+      - path: Agni_A_Hair029
+        weight: 1
+      - path: Agni_A_Hair030
+        weight: 1
+      - path: Agni_A_Object001
+        weight: 1
+      - path: Agni_A_Shoe
+        weight: 1
+      - path: Agni_A_Shoe001
+        weight: 1
+      - path: Agni_A_Sole
+        weight: 1
+      - path: Agni_A_Sole001
+        weight: 1
+      - path: Agni_A_Tube001
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

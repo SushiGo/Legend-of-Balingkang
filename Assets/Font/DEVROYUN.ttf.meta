@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 449faf43b15a61844aac4f70faa978ae
+timeCreated: 1506321731
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Devroye
+  fontNames:
+  - Devroye
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
