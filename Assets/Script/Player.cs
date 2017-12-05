@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour {
     
-    private string facing = "right";
+    public string facing = "right";
     private Rigidbody rBody;
 
     public bool canMove;
@@ -32,6 +32,7 @@ public class Player : MonoBehaviour {
     //-- SIDE QUEST --//
     public bool talkSideQuest;
     public string sideQuestType;
+    public bool isRequiredFinish;
 
     //-- CONVERSATION --//
     public GameObject actionBalloon;
@@ -177,6 +178,18 @@ public class Player : MonoBehaviour {
                 conversationComponent = other.transform.GetComponent<Conversation>();
             }
         }
+        else if(other.tag =="SideQuestTarget")
+        {
+            if(isRequiredFinish)
+            {
+                if (!other.GetComponent<Conversation>().isFinish)
+                {
+                    ShowActionBalloon();
+                    talkSideQuest = true;
+                    conversationComponent = other.transform.GetComponent<Conversation>();
+                }
+            }
+        }
     }
 
     void OnTriggerExit(Collider other)
@@ -185,7 +198,7 @@ public class Player : MonoBehaviour {
         {
             canPickItem = false;
         }
-        else if(other.tag == "SideQuest")
+        else if(other.tag == "SideQuest" || other.tag == "SideQuestTarget")
         {
             talkSideQuest = false;
         }

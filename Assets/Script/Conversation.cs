@@ -36,6 +36,15 @@ public class Conversation : MonoBehaviour {
             No();
             playerScript.talkSideQuest = false;
             playerScript.actionBalloon.SetActive(false);
+
+            if(this.name == "sq2")
+            {
+                this.GetComponent<FollowPlayer>().enabled = true;
+            }
+            else if(this.name == "Target_sq2")
+            {
+                Destroy(GameObject.Find("sq2"));
+            }
         }
         else if (lines[currentLine] == "")
         {
@@ -88,6 +97,11 @@ public class Conversation : MonoBehaviour {
             playerScript.CheckCraft();
         }
 
+        //isRequiredFinish in PlayerScript set to true
+        else if(this.name == "sq2")
+        {
+            playerScript.isRequiredFinish = true;
+        }
     }
     
     public void No()
