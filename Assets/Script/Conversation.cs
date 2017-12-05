@@ -8,7 +8,8 @@ public class Conversation : MonoBehaviour {
     public string[] lines;
     public GameObject player;
     public GameObject panelSideQuest;
-    //public string[] LinesEnding;
+
+    public GameObject dialogAwal;
 
     private Player playerScript;
     private int currentLine = 0;
@@ -36,6 +37,11 @@ public class Conversation : MonoBehaviour {
             No();
             playerScript.talkSideQuest = false;
             playerScript.actionBalloon.SetActive(false);
+
+            if(dialogAwal)
+            {
+                dialogAwal.SetActive(false);
+            }
 
             if(this.name == "sq2")
             {
