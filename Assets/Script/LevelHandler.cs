@@ -8,6 +8,8 @@ public class LevelHandler : MonoBehaviour {
 
     private AudioSource audioSource;
 
+    public GameObject player;
+
     void Awake()
     {
         audioSource = GetComponent<AudioSource>();
@@ -22,7 +24,7 @@ public class LevelHandler : MonoBehaviour {
     
 	void Start ()
     {
-		
+        player = GameObject.Find("Player");
 	}
 	
 	void Update ()
@@ -36,9 +38,21 @@ public class LevelHandler : MonoBehaviour {
         {
             GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), movieTexture, ScaleMode.StretchToFill);
         }
-        //if(!movieTexture.isPlaying)
-        //{
-        //    print("Asdasd");
-        //}
+        if (!movieTexture.isPlaying)
+        {
+            player.GetComponent<Player>().enabled = true;
+        }
+    }
+
+    public void No()
+    {
+        var sqName = player.GetComponent<Player>().sideQuestType;
+        GameObject.Find(sqName).GetComponent<Conversation>().No();
+    }
+
+    public void Yes()
+    {
+        var sqName = player.GetComponent<Player>().sideQuestType;
+        GameObject.Find(sqName).GetComponent<Conversation>().Yes();
     }
 }

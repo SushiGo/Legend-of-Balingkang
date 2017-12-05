@@ -8,6 +8,8 @@ public class Player : MonoBehaviour {
     private string facing = "right";
     private Rigidbody rBody;
 
+    public bool canMove;
+
     private bool canPickItem = false;
     private string itemName;
 
@@ -27,70 +29,115 @@ public class Player : MonoBehaviour {
     //-- CRAFTING --//
     public GameObject craftingAxe, craftingTorch;
 
+    //-- SIDE QUEST --//
+    public bool talkSideQuest;
+    public string sideQuestType;
+
     //-- CONVERSATION --//
     public GameObject actionBalloon;
+    public GameObject dialogPanel;
+    private Text dialogText;
+    private Conversation conversationComponent;
+    public bool inConversation;
 
     void Start ()
     {
         rBody = GetComponent<Rigidbody>();
 
+        canMove = true;
+
         inventoryName = new List<string>();
         inventoryCount = new List<int>();
         ShowInventory();
+
+        dialogText = dialogPanel.GetComponentInChildren<Text>();
     }
 	
 	void Update ()
     {
         #region //-- MOVE --//
-        float x = Input.GetAxis("Horizontal") * Time.deltaTime * moveSpeed;
+        if(canMove)
+        {
+            float x = Input.GetAxis("Horizontal") * Time.deltaTime * moveSpeed;
 
-        if (x < 0) //Going left
-        {
-            if (facing == "right")
+            if (x < 0) //Going left
             {
-                this.transform.Rotate(0, -180f, 0);
-                facing = "left";
+                if (facing == "right")
+                {
+                    this.transform.Rotate(0, -180f, 0);
+                    facing = "left";
+                }
+                this.GetComponent<Animator>().SetBool("isMove", true);
+                transform.Translate(0, 0, -x);
             }
-            this.GetComponent<Animator>().SetBool("isMove", true);
-            transform.Translate(0, 0, -x);
-        }
-        else if (x > 0) //Going right
-        {
-            if (facing == "left")
+            else if (x > 0) //Going right
             {
-                this.transform.Rotate(0, 180f, 0);
-                facing = "right";
+                if (facing == "left")
+                {
+                    this.transform.Rotate(0, 180f, 0);
+                    facing = "right";
+                }
+                this.GetComponent<Animator>().SetBool("isMove", true);
+                transform.Translate(0, 0, x);
             }
-            this.GetComponent<Animator>().SetBool("isMove", true);
-            transform.Translate(0, 0, x);
-        }
-        else
-        {
-            this.GetComponent<Animator>().SetBool("isMove", false);
+            else
+            {
+                this.GetComponent<Animator>().SetBool("isMove", false);
+            }
         }
         #endregion
-
-        #region//-- PICK UP ITEM --//
-        if (Input.GetKeyDown(KeyCode.E) && canPickItem)
+        
+        if (Input.GetKeyDown(KeyCode.E))
         {
-            PickItem(itemName);
+            #region//-- PICK UP ITEM --//
+            if (canPickItem)
+            {
+                PickItem(itemName);
+            }
+            #endregion
+
+            #region//-- SIDE QUEST --//
+            else if (!inConversation && talkSideQuest)
+            {
+                canMove = false;
+                inConversation = true;
+                dialogPanel.SetActive(true);
+                conversationComponent.NextLine(dialogText);
+            }
+            #endregion
         }
-        #endregion
+
+        //-- NEXT LINE DIALOG --//
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            if(inConversation)
+            {
+                conversationComponent.NextLine(dialogText);
+            }
+        }
     }
+
+    //private void OpenConversation()
+    //{
+        
+    //}
 
     void FixedUpdate ()
     {
         #region //-- JUMP --//
-        if (onGround)
+        if(canMove)
         {
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (onGround)
             {
-                onGround = false;
-                StartCoroutine(Jumping());
-                this.GetComponent<Animator>().SetTrigger("isJump");
+                if (Input.GetKeyDown(KeyCode.Space))
+                {
+                    onGround = false;
+                    StartCoroutine(Jumping());
+                    this.GetComponent<Animator>().SetTrigger("isJump");
+                }
             }
         }
-        #endregion //-- JUMP --//
+        #endregion
     }
 
     IEnumerator Jumping()
@@ -122,10 +169,12 @@ public class Player : MonoBehaviour {
         }
         else if(other.tag == "SideQuest")
         {
-            ShowActionBalloon();
-            if(other.name == "sq1")
+            if(!other.GetComponent<Conversation>().isFinish)
             {
-                print("This is sq1");
+                ShowActionBalloon();
+                talkSideQuest = true;
+                sideQuestType = other.name;
+                conversationComponent = other.transform.GetComponent<Conversation>();
             }
         }
     }
@@ -135,6 +184,10 @@ public class Player : MonoBehaviour {
         if(other.tag == "Item")
         {
             canPickItem = false;
+        }
+        else if(other.tag == "SideQuest")
+        {
+            talkSideQuest = false;
         }
         actionBalloon.SetActive(false);
     }

@@ -6,6 +6,7 @@ public class CameraController : MonoBehaviour {
 
     public bool trackPlayer;
     public GameObject player;
+    public float minX, maxX;
 
     private Vector3 offset, offsetVert;
 
@@ -21,7 +22,7 @@ public class CameraController : MonoBehaviour {
 		if(trackPlayer)
         {
             this.transform.position = player.transform.position + offset;
-            this.transform.position = new Vector3(Mathf.Clamp(this.transform.position.x, 0, 1.5f),
+            this.transform.position = new Vector3(Mathf.Clamp(this.transform.position.x, minX, maxX),
                 this.transform.position.y,
                 this.transform.position.z);
         }
