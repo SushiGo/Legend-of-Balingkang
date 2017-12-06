@@ -55,4 +55,11 @@ public class LevelHandler : MonoBehaviour {
         var sqName = player.GetComponent<Player>().sideQuestType;
         GameObject.Find(sqName).GetComponent<Conversation>().Yes();
     }
+
+    public void NextLine()
+    {
+        var sqName = player.GetComponent<Player>().sideQuestType;
+        var dialogText = player.GetComponent<Player>().dialogText;
+        GameObject.Find(sqName).GetComponent<Conversation>().NextLine(dialogText);
+    }
 }

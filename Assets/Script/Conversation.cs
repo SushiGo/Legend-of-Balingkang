@@ -8,12 +8,13 @@ public class Conversation : MonoBehaviour {
     public string[] lines;
     public GameObject player;
     public GameObject panelSideQuest;
-
     public GameObject dialogAwal;
+    public GameObject panelPilihOrang;
+    public GameObject[] orangKuat;
 
     private Player playerScript;
-    private int currentLine = 0;
-    private int lastLine = 0;
+    public int currentLine = 0;
+    public int lastLine = 0;
     public bool isFinish = false;
 
     // Use this for initialization
@@ -51,6 +52,21 @@ public class Conversation : MonoBehaviour {
             {
                 Destroy(GameObject.Find("sq2"));
             }
+            else if(this.name == "Target_sq3")
+            {
+                foreach(var item in orangKuat)
+                {
+                    item.SetActive(true);
+                }
+            }
+            else if (this.name == "sq3")
+            {
+                foreach (var item in GameObject.Find("Target_sq3").GetComponent<Conversation>().orangKuat)
+                {
+                    Destroy(item);
+                }
+                Destroy(GameObject.Find("sq3"));
+            }
         }
         else if (lines[currentLine] == "")
         {
@@ -72,6 +88,25 @@ public class Conversation : MonoBehaviour {
                 panelSideQuest.SetActive(true);
                 panelSideQuest.GetComponentInChildren<Text>().text = "Antar anak itu pulang?";
             }
+            else if(this.name == "sq3")
+            {
+                //Jika orang" kuat sudah mengikuti
+                if(GameObject.Find("Target_sq3").GetComponent<Conversation>().isFinish)
+                {
+                    panelSideQuest.SetActive(true);
+                    panelSideQuest.GetComponentInChildren<Text>().text = "Minta bantuan orang untuk mengangkat?";
+                }
+                else
+                {
+                    playerScript.isRequiredFinish = true;
+                    No();
+                }
+            }
+            else if(this.name == "Target_sq3")
+            {
+                panelSideQuest.SetActive(true);
+                panelSideQuest.GetComponentInChildren<Text>().text = "Minta bantuan?";
+            }
         }
         else if (currentLine <= lastLine)
         {
@@ -84,11 +119,18 @@ public class Conversation : MonoBehaviour {
     {
         if(currentLine < lastLine)
         {
-            currentLine++;
-            playerScript.canMove = false;
-            playerScript.inConversation = true;
-            playerScript.dialogPanel.SetActive(true);
-            NextLine(playerScript.dialogPanel.GetComponentInChildren<Text>());
+            if(this.name == "Target_sq3")
+            {
+                currentLine++;
+            }
+            else
+            {
+                currentLine++;
+                playerScript.canMove = false;
+                playerScript.inConversation = true;
+                playerScript.dialogPanel.SetActive(true);
+                NextLine(playerScript.dialogPanel.GetComponentInChildren<Text>());
+            }
         }
 
         //REMOVE AXE for sq1
@@ -107,6 +149,16 @@ public class Conversation : MonoBehaviour {
         else if(this.name == "sq2")
         {
             playerScript.isRequiredFinish = true;
+        }
+
+        //Muncul panel pilih orang
+        else if(this.name == "Target_sq3")
+        {
+            if(!panelPilihOrang.activeSelf)
+            {
+                panelPilihOrang.SetActive(true);
+                playerScript.dialogPanel.SetActive(false);
+            }
         }
     }
     

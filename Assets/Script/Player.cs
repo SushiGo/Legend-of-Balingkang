@@ -37,7 +37,7 @@ public class Player : MonoBehaviour {
     //-- CONVERSATION --//
     public GameObject actionBalloon;
     public GameObject dialogPanel;
-    private Text dialogText;
+    public Text dialogText;
     private Conversation conversationComponent;
     public bool inConversation;
 
@@ -186,6 +186,7 @@ public class Player : MonoBehaviour {
                 {
                     ShowActionBalloon();
                     talkSideQuest = true;
+                    sideQuestType = other.name;
                     conversationComponent = other.transform.GetComponent<Conversation>();
                 }
             }
