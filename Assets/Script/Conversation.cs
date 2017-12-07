@@ -107,6 +107,11 @@ public class Conversation : MonoBehaviour {
                 panelSideQuest.SetActive(true);
                 panelSideQuest.GetComponentInChildren<Text>().text = "Minta bantuan?";
             }
+            else if(this.name == "MainQuest")
+            {
+                panelSideQuest.SetActive(true);
+                panelSideQuest.GetComponentInChildren<Text>().text = "Menerima kapal Cina itu berlabuh?";
+            }
         }
         else if (currentLine <= lastLine)
         {

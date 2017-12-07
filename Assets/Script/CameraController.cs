@@ -7,6 +7,8 @@ public class CameraController : MonoBehaviour {
     public bool trackPlayer;
     public GameObject player;
     public float minX, maxX;
+    public float playerX;
+    public bool fromLeftToRight;
 
     private Vector3 offset, offsetVert;
 
@@ -26,10 +28,25 @@ public class CameraController : MonoBehaviour {
                 this.transform.position.y,
                 this.transform.position.z);
         }
-        if(Input.GetKeyDown(KeyCode.T)) // tracked ketika player ada di x tertentu
+        else
         {
-            offset = this.transform.position - player.transform.position;
-            trackPlayer = !trackPlayer;
+            if(fromLeftToRight)
+            {
+                if (player.transform.position.x >= playerX) // tracked ketika player ada di x tertentu
+                {
+                    offset = this.transform.position - player.transform.position;
+                    trackPlayer = !trackPlayer;
+                }
+            }
+            else
+            {
+                if (player.transform.position.x <= playerX) // tracked ketika player ada di x tertentu
+                {
+                    offset = this.transform.position - player.transform.position;
+                    trackPlayer = !trackPlayer;
+                }
+            }
+            
         }
 
         //OFFSET VERTICAL

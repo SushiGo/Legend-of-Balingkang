@@ -45,13 +45,19 @@ public class Player : MonoBehaviour {
     {
         rBody = GetComponent<Rigidbody>();
 
-        canMove = true;
+        //canMove = true;
 
         inventoryName = new List<string>();
         inventoryCount = new List<int>();
-        ShowInventory();
+        if(inventory.Length > 0)
+        {
+            ShowInventory();
+        }
 
-        dialogText = dialogPanel.GetComponentInChildren<Text>();
+        if(dialogText != null)
+        {
+            dialogText = dialogPanel.GetComponentInChildren<Text>();
+        }
     }
 	
 	void Update ()
