@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CraftingButton : MonoBehaviour {
 
@@ -105,8 +106,12 @@ public class CraftingButton : MonoBehaviour {
                     }
                 }
             }
+            if(PlayerPrefs.GetInt("isTutorial") == 1)
+            {
+                playerScript.tutorialPanel.GetComponent<Image>().overrideSprite = Resources.Load<Sprite>("Tutorial/tutorial5");
+            }
         }
-
+        
         playerScript.ShowInventory();
         playerScript.CountInventory();
         playerScript.CheckCraft();

@@ -16,6 +16,7 @@ public class FadeTo : MonoBehaviour {
 
     public void GoToScene(string sceneName)
     {
+        PlayerPrefs.SetString("cutSceneName", "1");
         Initiate.Fade(sceneName, Color.black, 2.0f);
     }
 }

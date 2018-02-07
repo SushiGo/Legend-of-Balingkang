@@ -62,7 +62,9 @@ public class InventoryButton : MonoBehaviour {
     public void EquipItem(int slotIdx)
     {
         equip.SetActive(true);
+        playerScript.durability = 100;
         equip.GetComponent<Image>().sprite = playerScript.inventory[slotIdx].GetComponent<Image>().sprite;
+        equip.GetComponentInChildren<Text>().text = playerScript.durability.ToString() + "%";
 
         playerScript.inventoryCount.RemoveAt(slotIdx);
         playerScript.inventoryName.RemoveAt(slotIdx);
