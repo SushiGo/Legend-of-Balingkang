@@ -75,4 +75,9 @@ public class InventoryButton : MonoBehaviour {
 
         btnUnequip.GetComponent<Button>().interactable = true;
     }
+
+    public void ChangeEquipBtnSpriteToNone()
+    {
+        equip.GetComponent<Image>().sprite = null;
+    }
 }
