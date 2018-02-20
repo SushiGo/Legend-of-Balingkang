@@ -21,6 +21,7 @@ public class NextSceneCollide : MonoBehaviour {
     {
         if(other.name == "Player")
         {
+            //other.GetComponent<Player>().SaveAchievement();
             if(cutsceneName != "")
             {
                 PlayerPrefs.SetString("cutSceneName", cutsceneName);

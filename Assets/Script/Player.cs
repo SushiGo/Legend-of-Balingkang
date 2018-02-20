@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour {
 
@@ -55,6 +56,11 @@ public class Player : MonoBehaviour {
     public GameObject tutorialPanel;
     private bool isTutorCrafting;
 
+    //-- ACHIEVEMENT --//
+    public int[] pictureCount;
+    private GameObject panelNotifPicture;
+    private bool isPicture;
+
     private bool isMasukPintuRuanganKuno;
 
     void Start ()
@@ -74,6 +80,8 @@ public class Player : MonoBehaviour {
         {
             dialogText = dialogPanel.GetComponentInChildren<Text>();
         }
+
+        panelNotifPicture = GameObject.Find("PanelNotifPicture");
     }
 	
 	void Update ()
@@ -152,13 +160,34 @@ public class Player : MonoBehaviour {
                 {
                     if (equip.GetComponent<Image>().sprite.name == "Axe")
                     {
+                        if (GameObject.Find(obstacleName).GetComponent<Bush>().isPicture)
+                        {
+                            var picIndex = GameObject.Find(obstacleName).GetComponent<PotonganGambar>().index;
+                            pictureCount[picIndex] = 1;
+
+                            var countTemp = 0;
+                            for (int i = 0; i < pictureCount.Length; i++)
+                            {
+                                if (pictureCount[i] == 1)
+                                {
+                                    countTemp++;
+                                }
+                            }
+                            panelNotifPicture.transform.GetChild(1).GetComponent<Text>().text = countTemp.ToString();
+                            panelNotifPicture.transform.GetChild(3).GetComponent<Text>().text = pictureCount.Length.ToString();
+                            panelNotifPicture.GetComponent<Animator>().enabled = true;
+                            panelNotifPicture.GetComponent<Animator>().Play("show");
+                            Invoke("HidePanelNotifPicture", 4f);
+                        }
+
+                        isObstacle = false;
                         Destroy(GameObject.Find(obstacleName));
                         durability -= 25;
                         actionBalloon.SetActive(false);
                         if(durability == 0)
                         {
                             equip.SetActive(false);
-                            equip.GetComponent<Image>().overrideSprite = null;
+                            equip.GetComponent<Image>().sprite = null;
                             unequip.GetComponent<Button>().interactable = false;
                         }
                         else
@@ -191,6 +220,7 @@ public class Player : MonoBehaviour {
 
             else if(isMasukPintuRuanganKuno)
             {
+                SaveAchievement();
                 PlayerPrefs.SetString("cutSceneName", "2-3");
                 Initiate.Fade("PlayCutScene", Color.black, 2.0f);
             }
@@ -199,16 +229,21 @@ public class Player : MonoBehaviour {
         }
 
         //-- NEXT LINE DIALOG --//
-        if(Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            if(inConversation)
+            if (inConversation)
             {
                 conversationComponent.NextLine(dialogText);
             }
-            else if(isObstacle)
+            else if (isObstacle)
             {
                 canMove = true;
                 dialogPanel.SetActive(false);
+            }
+            else if (isPicture) //Get picture
+            {
+                canMove = true;
+                tutorialPanel.SetActive(false);
             }
         }
     }
@@ -317,6 +352,41 @@ public class Player : MonoBehaviour {
         else if (other.name == "TutorCrafting")
         {
             isTutorCrafting = true;
+        }
+        else if (other.tag == "Picture")
+        {
+            if (PlayerPrefs.GetInt("isTutorial") == 1 && SceneManager.GetActiveScene().name == "Level1b")
+            {
+                tutorialPanel.SetActive(true);
+                tutorialPanel.GetComponent<Image>().overrideSprite = Resources.Load<Sprite>("Tutorial/tutorial6");
+
+                this.GetComponent<Animator>().SetBool("isMove", false);
+                canMove = false;
+                isPicture = true;
+            }
+
+            var picIndex = other.GetComponent<PotonganGambar>().index;
+            pictureCount[picIndex] = 1;
+
+            var countTemp = 0;
+            for(int i = 0; i<pictureCount.Length; i++)
+            {
+                if(pictureCount[i] == 1)
+                {
+                    countTemp++;
+                }
+            }
+            panelNotifPicture.transform.GetChild(1).GetComponent<Text>().text = countTemp.ToString();
+            panelNotifPicture.transform.GetChild(3).GetComponent<Text>().text = pictureCount.Length.ToString();
+            panelNotifPicture.GetComponent<Animator>().enabled = true;
+            panelNotifPicture.GetComponent<Animator>().Play("show");
+            Invoke("HidePanelNotifPicture", 4f);
+
+            Destroy(other.gameObject);
+        }
+        else if(other.tag == "Save")
+        {
+            SaveAchievement();
         }
     }
 
@@ -539,5 +609,17 @@ public class Player : MonoBehaviour {
         {
             craftingAxe.GetComponent<Button>().interactable = false;
         }
+    }
+
+    public void SaveAchievement()
+    {
+        var tempName = SceneManager.GetActiveScene().name;
+        tempName = tempName.Substring(5, 1);
+        PlayerPrefsX.SetIntArray("achievementLevel" + tempName, pictureCount);
+    }
+
+    public void HidePanelNotifPicture()
+    {
+        panelNotifPicture.GetComponent<Animator>().Play("hide");
     }
 }
