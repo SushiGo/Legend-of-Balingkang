@@ -82,6 +82,8 @@ public class Player : MonoBehaviour {
         }
 
         panelNotifPicture = GameObject.Find("PanelNotifPicture");
+
+        print("isTutorial= " + PlayerPrefs.GetInt("isTutorial"));
     }
 	
 	void Update ()
@@ -198,7 +200,7 @@ public class Player : MonoBehaviour {
                         {
                             tutorialPanel.SetActive(false);
 
-                            //Toturial selesai
+                            //Tutorial selesai
                             PlayerPrefs.SetInt("isTutorial", 0);
                         }
                     }
