@@ -168,6 +168,15 @@ public class Player : MonoBehaviour {
                             pictureCount[picIndex] = 1;
 
                             var countTemp = 0;
+                            var tempName = SceneManager.GetActiveScene().name;
+                            tempName = tempName.Substring(5, 1);
+                            for (int i = 0; i<PlayerPrefsX.GetIntArray("achievementLevel" + tempName).Length; i++)
+                            {
+                                if(PlayerPrefsX.GetIntArray("achievementLevel" + tempName)[i] == 1)
+                                {
+                                    countTemp++;
+                                }
+                            }
                             for (int i = 0; i < pictureCount.Length; i++)
                             {
                                 if (pictureCount[i] == 1)
