@@ -13,6 +13,12 @@ public class CheckPlayerPrefs : MonoBehaviour {
             PlayerPrefs.SetInt("isTutorial", 1);
         }
 
+        //-- LEVEL --//
+        if (!PlayerPrefs.HasKey("level"))
+        {
+            PlayerPrefs.SetInt("level", 1);
+        }
+
         //-- CUTSCENE --//
         if (!PlayerPrefs.HasKey("cutSceneName"))
         {
@@ -50,7 +56,7 @@ public class CheckPlayerPrefs : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-        //Reset Tutorial (developer mode)
+        //Reset Tutorial & Achievement (developer mode)
         if (Input.GetKeyDown(KeyCode.R))
         {
             PlayerPrefs.SetInt("isTutorial", 1);
@@ -65,6 +71,25 @@ public class CheckPlayerPrefs : MonoBehaviour {
             PlayerPrefsX.SetIntArray("achievementLevel3", numberArray3);
 
             var numberArray4 = new int[4];
+            PlayerPrefsX.SetIntArray("achievementLevel4", numberArray4);
+            PlayerPrefsX.SetIntArray("achievementLevel5", numberArray4);
+        }
+
+        //Complete game
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            PlayerPrefs.SetInt("isTutorial", 0);
+
+            var numberArray = new int[] { 1 };
+            PlayerPrefsX.SetIntArray("achievementLevel1", numberArray);
+
+            var numberArray2 = new int[] { 1, 1 };
+            PlayerPrefsX.SetIntArray("achievementLevel2", numberArray2);
+
+            var numberArray3 = new int[] { 1, 1, 1, 1, 1 };
+            PlayerPrefsX.SetIntArray("achievementLevel3", numberArray3);
+
+            var numberArray4 = new int[] { 1, 1, 1, 1 };
             PlayerPrefsX.SetIntArray("achievementLevel4", numberArray4);
             PlayerPrefsX.SetIntArray("achievementLevel5", numberArray4);
         }
