@@ -40,6 +40,13 @@ public class LevelHandler : MonoBehaviour {
         }
 
         CheckPicture();
+
+        //Save level -> checkpoint
+        var tempName = int.Parse(SceneManager.GetActiveScene().name.Substring(5, 1));
+        if(tempName > PlayerPrefs.GetInt("level"))
+        {
+            PlayerPrefs.SetInt("level", tempName);
+        }
 	}
 	
 	void Update ()
@@ -101,6 +108,10 @@ public class LevelHandler : MonoBehaviour {
                     if(picture[i].GetComponentInChildren<Bush>())
                     {
                         picture[i].GetComponentInChildren<Bush>().isPicture = false;
+                    }
+                    else if(picture[i].GetComponentInChildren<Conversation>())
+                    {
+                        picture[i].GetComponentInChildren<Conversation>().isPicture = false;
                     }
                     else
                     {

@@ -151,6 +151,12 @@ public class Player : MonoBehaviour {
                 inConversation = true;
                 dialogPanel.SetActive(true);
                 conversationComponent.NextLine(dialogText);
+
+                if(conversationComponent.isPicture)
+                {
+                    var index = conversationComponent.gameObject.GetComponent<PotonganGambar>().index;
+                    GetPicture(index);
+                }
             }
             #endregion
 
@@ -165,30 +171,7 @@ public class Player : MonoBehaviour {
                         if (GameObject.Find(obstacleName).GetComponent<Bush>().isPicture)
                         {
                             var picIndex = GameObject.Find(obstacleName).GetComponent<PotonganGambar>().index;
-                            pictureCount[picIndex] = 1;
-
-                            var countTemp = 0;
-                            var tempName = SceneManager.GetActiveScene().name;
-                            tempName = tempName.Substring(5, 1);
-                            for (int i = 0; i<PlayerPrefsX.GetIntArray("achievementLevel" + tempName).Length; i++)
-                            {
-                                if(PlayerPrefsX.GetIntArray("achievementLevel" + tempName)[i] == 1)
-                                {
-                                    countTemp++;
-                                }
-                            }
-                            for (int i = 0; i < pictureCount.Length; i++)
-                            {
-                                if (pictureCount[i] == 1)
-                                {
-                                    countTemp++;
-                                }
-                            }
-                            panelNotifPicture.transform.GetChild(1).GetComponent<Text>().text = countTemp.ToString();
-                            panelNotifPicture.transform.GetChild(3).GetComponent<Text>().text = pictureCount.Length.ToString();
-                            panelNotifPicture.GetComponent<Animator>().enabled = true;
-                            panelNotifPicture.GetComponent<Animator>().Play("show");
-                            Invoke("HidePanelNotifPicture", 4f);
+                            GetPicture(picIndex);
                         }
 
                         isObstacle = false;
@@ -237,6 +220,13 @@ public class Player : MonoBehaviour {
             }
 
             this.GetComponent<Animator>().SetBool("isMove", false);
+        }
+
+        //-- DEVELOPER MODE --//
+        //-- SAVING --//
+        else if(Input.GetKeyDown(KeyCode.H))
+        {
+            SaveAchievement();
         }
 
         //-- NEXT LINE DIALOG --//
@@ -376,22 +366,9 @@ public class Player : MonoBehaviour {
                 isPicture = true;
             }
 
+            //Call Get Picture Method
             var picIndex = other.GetComponent<PotonganGambar>().index;
-            pictureCount[picIndex] = 1;
-
-            var countTemp = 0;
-            for(int i = 0; i<pictureCount.Length; i++)
-            {
-                if(pictureCount[i] == 1)
-                {
-                    countTemp++;
-                }
-            }
-            panelNotifPicture.transform.GetChild(1).GetComponent<Text>().text = countTemp.ToString();
-            panelNotifPicture.transform.GetChild(3).GetComponent<Text>().text = pictureCount.Length.ToString();
-            panelNotifPicture.GetComponent<Animator>().enabled = true;
-            panelNotifPicture.GetComponent<Animator>().Play("show");
-            Invoke("HidePanelNotifPicture", 4f);
+            GetPicture(picIndex);
 
             Destroy(other.gameObject);
         }
@@ -399,6 +376,36 @@ public class Player : MonoBehaviour {
         {
             SaveAchievement();
         }
+    }
+
+    public void GetPicture(int index)
+    {
+        pictureCount[index] = 1;
+
+        var countTemp = 0;
+        var tempName = SceneManager.GetActiveScene().name;
+        tempName = tempName.Substring(5, 1);
+        for (int i = 0; i < PlayerPrefsX.GetIntArray("achievementLevel" + tempName).Length; i++)
+        {
+            if (PlayerPrefsX.GetIntArray("achievementLevel" + tempName)[i] == 1)
+            {
+                countTemp++;
+            }
+        }
+        for (int i = 0; i < pictureCount.Length; i++)
+        {
+            if (pictureCount[i] == 1 && PlayerPrefsX.GetIntArray("achievementLevel" + tempName)[i] == 0)
+            {
+                countTemp++;
+            }
+        }
+
+        //Show notif get picture
+        panelNotifPicture.transform.GetChild(1).GetComponent<Text>().text = countTemp.ToString();
+        panelNotifPicture.transform.GetChild(3).GetComponent<Text>().text = pictureCount.Length.ToString();
+        panelNotifPicture.GetComponent<Animator>().enabled = true;
+        panelNotifPicture.GetComponent<Animator>().Play("show");
+        Invoke("HidePanelNotifPicture", 4f);
     }
 
     void OnTriggerExit(Collider other)
@@ -626,7 +633,17 @@ public class Player : MonoBehaviour {
     {
         var tempName = SceneManager.GetActiveScene().name;
         tempName = tempName.Substring(5, 1);
-        PlayerPrefsX.SetIntArray("achievementLevel" + tempName, pictureCount);
+        var tempArr = PlayerPrefsX.GetIntArray("achievementLevel" + tempName);
+
+        for(int i = 0; i<pictureCount.Length; i++)
+        {
+            if(pictureCount[i] == 1)
+            {
+                tempArr[i] = 1;
+            }
+        }
+
+        PlayerPrefsX.SetIntArray("achievementLevel" + tempName, tempArr);
     }
 
     public void HidePanelNotifPicture()

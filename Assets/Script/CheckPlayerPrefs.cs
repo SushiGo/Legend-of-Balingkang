@@ -1,8 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CheckPlayerPrefs : MonoBehaviour {
+
+    public GameObject btnMulai, btnLanjutkan;
 
 	// Use this for initialization
 	void Start ()
@@ -18,6 +21,18 @@ public class CheckPlayerPrefs : MonoBehaviour {
         {
             PlayerPrefs.SetInt("level", 1);
         }
+        else if(PlayerPrefs.GetInt("level") > 1)
+        {
+            btnMulai.SetActive(false);
+            btnLanjutkan.SetActive(true);
+        }
+
+        //-- LEVEL NAME --//
+        //-- For retry level --//
+        //if (!PlayerPrefs.HasKey("levelName"))
+        //{
+        //    PlayerPrefs.SetString("levelName", "Level1");
+        //}
 
         //-- CUTSCENE --//
         if (!PlayerPrefs.HasKey("cutSceneName"))
@@ -56,7 +71,7 @@ public class CheckPlayerPrefs : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-        //Reset Tutorial & Achievement (developer mode)
+        //Reset Tutorial & Achievement (developer mode) & level
         if (Input.GetKeyDown(KeyCode.R))
         {
             PlayerPrefs.SetInt("isTutorial", 1);
@@ -73,6 +88,8 @@ public class CheckPlayerPrefs : MonoBehaviour {
             var numberArray4 = new int[4];
             PlayerPrefsX.SetIntArray("achievementLevel4", numberArray4);
             PlayerPrefsX.SetIntArray("achievementLevel5", numberArray4);
+
+            PlayerPrefs.SetInt("level", 1);
         }
 
         //Complete game
@@ -92,6 +109,12 @@ public class CheckPlayerPrefs : MonoBehaviour {
             var numberArray4 = new int[] { 1, 1, 1, 1 };
             PlayerPrefsX.SetIntArray("achievementLevel4", numberArray4);
             PlayerPrefsX.SetIntArray("achievementLevel5", numberArray4);
+        }
+
+        //Skip Tutorial
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            PlayerPrefs.SetInt("isTutorial", 0);
         }
     }
 }

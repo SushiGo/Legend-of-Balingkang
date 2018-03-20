@@ -53,6 +53,15 @@ public class PlayCutscene : MonoBehaviour {
                 {
                     Initiate.Fade("Level3", Color.black, 2.0f);
                 }
+                else if (PlayerPrefs.GetString("cutSceneName") == "8")
+                {
+                    Initiate.Fade("GameOver", Color.black, 2.0f);
+                }
+                else if (PlayerPrefs.GetString("cutSceneName") == "9-11")
+                {
+                    PlayerPrefs.SetString("cutSceneName", "12-18");
+                    Initiate.Fade("PlayCutScene", Color.black, 2.0f);
+                }
             }
         }
 	}
@@ -62,7 +71,6 @@ public class PlayCutscene : MonoBehaviour {
         if (movieTexture != null)
         {
             GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), movieTexture, ScaleMode.StretchToFill);
-            
         }
     }
 }

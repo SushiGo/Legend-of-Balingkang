@@ -17,6 +17,8 @@ public class Conversation : MonoBehaviour {
     public int lastLine = 0;
     public bool isFinish = false;
 
+    public bool isPicture;
+
     // Use this for initialization
     void Start ()
     {
@@ -148,6 +150,13 @@ public class Conversation : MonoBehaviour {
             playerScript.ShowInventory();
             playerScript.CountInventory();
             playerScript.CheckCraft();
+
+            //Get Picture
+            if(isPicture)
+            {
+                var index = this.GetComponent<PotonganGambar>().index;
+                playerScript.GetPicture(index);
+            }
         }
 
         //isRequiredFinish in PlayerScript set to true
